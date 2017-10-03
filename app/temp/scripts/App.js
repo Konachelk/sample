@@ -88,7 +88,7 @@ Person.prototype.greet = function() {
     
 }
 
-// module.exports = Person;
+module.exports = Person;
 
 /***/ })
 /******/ ]);

@@ -1,8 +1,7 @@
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
     sourcemaps = require('gulp-sourcemaps'),
-    autoprefixer = require('gulp-autoprefixer'),
-    browserSync = require('browser-sync').create();
+    autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('styles', function () {
     return gulp
